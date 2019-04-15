@@ -1,0 +1,35 @@
+body {
+    width: 980px;
+    margin: 20px auto;
+}
+
+.route-editor {
+    display: grid;
+    grid-template-columns: 320px 640px;
+    gap: 20px;
+}
+
+.route-editor__main {
+    width: 320px;
+    height: 480px;
+}
+
+.route-editor__input {
+    width: 320px;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.route-editor__points {
+    margin-top: 10px;
+    width: 320px;
+    display: grid;
+    gap: 10px;
+}
+
+.route-editor__map {
+    width: 640px;
+    height: 480px;
+    border: 1px solid black;
+}

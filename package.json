@@ -1,0 +1,38 @@
+{
+  "name": "route-editor",
+  "version": "1.0.0",
+  "description": "Route Editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriNem/Route-Editor.git"
+  },
+  "author": "Yuri Nemushkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriNem/Route-Editor/issues"
+  },
+  "homepage": "https://github.com/YuriNem/Route-Editor#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

@@ -1,0 +1,16 @@
+.point {
+    display: grid;
+    grid-template-columns: 300px 20px;
+}
+
+.point__text {
+    font-size: 20px;
+}
+
+.point__button {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0px;
+}
